@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+logs/
+data/
+figures/
+manuscript/
+results/environment.txt
+results/pilot*/
+*.zip
+.DS_Store

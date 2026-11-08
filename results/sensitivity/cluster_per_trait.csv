@@ -1,0 +1,244 @@
+k,trait_id,group,Features,n,n_clusters,LOPO r
+4,seeds_thp,fitness,G,337,1,NaN
+4,seeds_thp,fitness,E,337,1,NaN
+4,seeds_thp,fitness,GE,337,1,NaN
+4,seeds_thi,fitness,G,337,1,NaN
+4,seeds_thi,fitness,E,337,1,NaN
+4,seeds_thi,fitness,GE,337,1,NaN
+4,fit_thp,fitness,G,337,1,NaN
+4,fit_thp,fitness,E,337,1,NaN
+4,fit_thp,fitness,GE,337,1,NaN
+4,fit_mhi,fitness,G,337,1,NaN
+4,fit_mhi,fitness,E,337,1,NaN
+4,fit_mhi,fitness,GE,337,1,NaN
+4,surv_mli,fitness,G,337,1,NaN
+4,surv_mli,fitness,E,337,1,NaN
+4,surv_mli,fitness,GE,337,1,NaN
+4,seeds_mhp,fitness,G,337,1,NaN
+4,seeds_mhp,fitness,E,337,1,NaN
+4,seeds_mhp,fitness,GE,337,1,NaN
+4,FT16,flowering,G,631,4,0.18137495172315393
+4,FT16,flowering,E,631,4,0.0785041159834026
+4,FT16,flowering,GE,631,4,0.17434315653721888
+4,DTF2,flowering/architecture,G,618,4,0.11533223025373188
+4,DTF2,flowering/architecture,E,618,4,0.033274459282553355
+4,DTF2,flowering/architecture,GE,618,4,0.13152611455083252
+4,CL,flowering/architecture,G,604,4,-0.04554637935767842
+4,CL,flowering/architecture,E,604,4,0.04676733464249712
+4,CL,flowering/architecture,GE,604,4,0.047068630619578916
+4,RBN,flowering/architecture,G,454,2,0.015818897671586105
+4,RBN,flowering/architecture,E,454,2,-0.008990383224213966
+4,RBN,flowering/architecture,GE,454,2,0.009615111090565068
+4,rosetteDM,growth allometry,G,254,1,NaN
+4,rosetteDM,growth allometry,E,254,1,NaN
+4,rosetteDM,growth allometry,GE,254,1,NaN
+4,fruitNo,growth allometry,G,248,1,NaN
+4,fruitNo,growth allometry,E,248,1,NaN
+4,fruitNo,growth allometry,GE,248,1,NaN
+4,RGR,growth allometry,G,250,1,NaN
+4,RGR,growth allometry,E,250,1,NaN
+4,RGR,growth allometry,GE,250,1,NaN
+4,pollination,pollination,G,130,2,-0.05803572181732855
+4,pollination,pollination,E,130,2,-0.06495584104619895
+4,pollination,pollination,GE,130,2,-0.05803572181732855
+4,raffinose22,seed chemistry,G,131,1,NaN
+4,raffinose22,seed chemistry,E,131,1,NaN
+4,raffinose22,seed chemistry,GE,131,1,NaN
+4,raffinose32,seed chemistry,G,131,1,NaN
+4,raffinose32,seed chemistry,E,131,1,NaN
+4,raffinose32,seed chemistry,GE,131,1,NaN
+4,stomataDens_A,stomata/gas exchange,G,149,1,NaN
+4,stomataDens_A,stomata/gas exchange,E,149,1,NaN
+4,stomataDens_A,stomata/gas exchange,GE,149,1,NaN
+4,delta13C_A,stomata/gas exchange,G,149,1,NaN
+4,delta13C_A,stomata/gas exchange,E,149,1,NaN
+4,delta13C_A,stomata/gas exchange,GE,149,1,NaN
+4,stomataDens_B,stomata/gas exchange,G,190,1,NaN
+4,stomataDens_B,stomata/gas exchange,E,190,1,NaN
+4,stomataDens_B,stomata/gas exchange,GE,190,1,NaN
+4,stomataSize_A,stomata/gas exchange,G,149,1,NaN
+4,stomataSize_A,stomata/gas exchange,E,149,1,NaN
+4,stomataSize_A,stomata/gas exchange,GE,149,1,NaN
+4,stomataSize_B,stomata/gas exchange,G,190,1,NaN
+4,stomataSize_B,stomata/gas exchange,E,190,1,NaN
+4,stomataSize_B,stomata/gas exchange,GE,190,1,NaN
+4,trichDensity,trichome/metal,G,120,2,-0.2531456842272675
+4,trichDensity,trichome/metal,E,120,2,-0.22475575460669178
+4,trichDensity,trichome/metal,GE,120,2,-0.24870590042091995
+4,trichStemLen,trichome/metal,G,118,2,-0.1328293727765113
+4,trichStemLen,trichome/metal,E,118,2,-0.34391762786154
+4,trichStemLen,trichome/metal,GE,118,2,-0.1328293727765113
+4,trichArea,trichome/metal,G,116,2,0.16593758976370285
+4,trichArea,trichome/metal,E,116,2,-0.14522396013223648
+4,trichArea,trichome/metal,GE,116,2,-0.10767224077924341
+4,trichAutofluor,trichome/metal,G,120,2,-0.11525310977042275
+4,trichAutofluor,trichome/metal,E,120,2,0.24747759222974255
+4,trichAutofluor,trichome/metal,GE,120,2,0.12186946243078839
+4,trichBranches,trichome/metal,G,119,2,-0.3157561965488366
+4,trichBranches,trichome/metal,E,119,2,-0.09749495114808304
+4,trichBranches,trichome/metal,GE,119,2,-0.11979898633892797
+4,trichLen,trichome/metal,G,116,2,0.045790051607403334
+4,trichLen,trichome/metal,E,116,2,-0.122111083385056
+4,trichLen,trichome/metal,GE,116,2,-0.050572133043221335
+5,seeds_thp,fitness,G,337,2,-0.09287444456748473
+5,seeds_thp,fitness,E,337,2,0.04037948764204001
+5,seeds_thp,fitness,GE,337,2,-0.0447415190316601
+5,seeds_thi,fitness,G,337,2,0.015578908530754332
+5,seeds_thi,fitness,E,337,2,-0.022442600785504134
+5,seeds_thi,fitness,GE,337,2,0.005729169769213803
+5,fit_thp,fitness,G,337,2,-0.07760524526595763
+5,fit_thp,fitness,E,337,2,-0.08258818558280666
+5,fit_thp,fitness,GE,337,2,-0.07760524526595763
+5,fit_mhi,fitness,G,337,2,0.006870947599687066
+5,fit_mhi,fitness,E,337,2,0.07263862598915913
+5,fit_mhi,fitness,GE,337,2,0.07152762471050352
+5,surv_mli,fitness,G,337,2,-0.2612258817153351
+5,surv_mli,fitness,E,337,2,-0.23298181579134536
+5,surv_mli,fitness,GE,337,2,-0.2299217920897224
+5,seeds_mhp,fitness,G,337,2,-0.1026761918951453
+5,seeds_mhp,fitness,E,337,2,0.09929054551268121
+5,seeds_mhp,fitness,GE,337,2,0.08378117366231405
+5,FT16,flowering,G,631,5,0.05994901018144132
+5,FT16,flowering,E,631,5,0.24401717846216586
+5,FT16,flowering,GE,631,5,0.3681732263918067
+5,DTF2,flowering/architecture,G,618,5,0.07892607687370382
+5,DTF2,flowering/architecture,E,618,5,0.19855748352272792
+5,DTF2,flowering/architecture,GE,618,5,0.3306144461682526
+5,CL,flowering/architecture,G,604,5,-0.11372700807274932
+5,CL,flowering/architecture,E,604,5,0.04978195143268009
+5,CL,flowering/architecture,GE,604,5,0.05430632573375026
+5,RBN,flowering/architecture,G,454,3,-0.00405412022214444
+5,RBN,flowering/architecture,E,454,3,-0.1465424402928855
+5,RBN,flowering/architecture,GE,454,3,-0.008188833509155773
+5,rosetteDM,growth allometry,G,254,2,-0.13080343756484522
+5,rosetteDM,growth allometry,E,254,2,0.0814770227624587
+5,rosetteDM,growth allometry,GE,254,2,-0.11641189500123673
+5,fruitNo,growth allometry,G,248,2,-0.024195685014586046
+5,fruitNo,growth allometry,E,248,2,0.010247785679005125
+5,fruitNo,growth allometry,GE,248,2,-0.024195685014585442
+5,RGR,growth allometry,G,250,2,0.007296629271020093
+5,RGR,growth allometry,E,250,2,-0.003592883066607237
+5,RGR,growth allometry,GE,250,2,0.02614294448532464
+5,pollination,pollination,G,130,3,-0.09668060213365687
+5,pollination,pollination,E,130,3,-0.05330154052094714
+5,pollination,pollination,GE,130,3,-0.09829440601889654
+5,raffinose22,seed chemistry,G,131,1,NaN
+5,raffinose22,seed chemistry,E,131,1,NaN
+5,raffinose22,seed chemistry,GE,131,1,NaN
+5,raffinose32,seed chemistry,G,131,1,NaN
+5,raffinose32,seed chemistry,E,131,1,NaN
+5,raffinose32,seed chemistry,GE,131,1,NaN
+5,stomataDens_A,stomata/gas exchange,G,149,1,NaN
+5,stomataDens_A,stomata/gas exchange,E,149,1,NaN
+5,stomataDens_A,stomata/gas exchange,GE,149,1,NaN
+5,delta13C_A,stomata/gas exchange,G,149,1,NaN
+5,delta13C_A,stomata/gas exchange,E,149,1,NaN
+5,delta13C_A,stomata/gas exchange,GE,149,1,NaN
+5,stomataDens_B,stomata/gas exchange,G,190,1,NaN
+5,stomataDens_B,stomata/gas exchange,E,190,1,NaN
+5,stomataDens_B,stomata/gas exchange,GE,190,1,NaN
+5,stomataSize_A,stomata/gas exchange,G,149,1,NaN
+5,stomataSize_A,stomata/gas exchange,E,149,1,NaN
+5,stomataSize_A,stomata/gas exchange,GE,149,1,NaN
+5,stomataSize_B,stomata/gas exchange,G,190,1,NaN
+5,stomataSize_B,stomata/gas exchange,E,190,1,NaN
+5,stomataSize_B,stomata/gas exchange,GE,190,1,NaN
+5,trichDensity,trichome/metal,G,120,2,-0.2531456842272675
+5,trichDensity,trichome/metal,E,120,2,-0.22475575460669178
+5,trichDensity,trichome/metal,GE,120,2,-0.24870590042091995
+5,trichStemLen,trichome/metal,G,118,2,-0.1328293727765113
+5,trichStemLen,trichome/metal,E,118,2,-0.34391762786154
+5,trichStemLen,trichome/metal,GE,118,2,-0.1328293727765113
+5,trichArea,trichome/metal,G,116,2,0.16593758976370285
+5,trichArea,trichome/metal,E,116,2,-0.14522396013223648
+5,trichArea,trichome/metal,GE,116,2,-0.10767224077924341
+5,trichAutofluor,trichome/metal,G,120,2,-0.11525310977042275
+5,trichAutofluor,trichome/metal,E,120,2,0.24747759222974255
+5,trichAutofluor,trichome/metal,GE,120,2,0.12186946243078839
+5,trichBranches,trichome/metal,G,119,2,-0.3157561965488366
+5,trichBranches,trichome/metal,E,119,2,-0.09749495114808304
+5,trichBranches,trichome/metal,GE,119,2,-0.11979898633892797
+5,trichLen,trichome/metal,G,116,2,0.045790051607403334
+5,trichLen,trichome/metal,E,116,2,-0.122111083385056
+5,trichLen,trichome/metal,GE,116,2,-0.050572133043221335
+8,seeds_thp,fitness,G,337,4,0.1168014150271264
+8,seeds_thp,fitness,E,337,4,-0.012106506356382895
+8,seeds_thp,fitness,GE,337,4,0.0319238595130798
+8,seeds_thi,fitness,G,337,4,0.018616296267451336
+8,seeds_thi,fitness,E,337,4,0.15053269556108717
+8,seeds_thi,fitness,GE,337,4,0.13838464937726153
+8,fit_thp,fitness,G,337,4,0.11336223333512291
+8,fit_thp,fitness,E,337,4,-0.16251673654257875
+8,fit_thp,fitness,GE,337,4,-0.0004037973500164334
+8,fit_mhi,fitness,G,337,4,-0.052324370820669056
+8,fit_mhi,fitness,E,337,4,-0.04285518843905895
+8,fit_mhi,fitness,GE,337,4,-0.05144813679262529
+8,surv_mli,fitness,G,337,4,0.08451418320563918
+8,surv_mli,fitness,E,337,4,-0.0685230817851867
+8,surv_mli,fitness,GE,337,4,-0.015384902352751188
+8,seeds_mhp,fitness,G,337,4,0.020428683666408903
+8,seeds_mhp,fitness,E,337,4,-0.10977256617970213
+8,seeds_mhp,fitness,GE,337,4,-0.0661852262084072
+8,FT16,flowering,G,631,8,0.3950270937159571
+8,FT16,flowering,E,631,8,0.023646895569402537
+8,FT16,flowering,GE,631,8,0.533293817871811
+8,DTF2,flowering/architecture,G,618,8,0.37996552931065974
+8,DTF2,flowering/architecture,E,618,8,-0.015421329062818737
+8,DTF2,flowering/architecture,GE,618,8,0.4633728316986422
+8,CL,flowering/architecture,G,604,8,-0.18405478804807626
+8,CL,flowering/architecture,E,604,8,0.470118196581369
+8,CL,flowering/architecture,GE,604,8,0.470118196581369
+8,RBN,flowering/architecture,G,454,5,0.15213290971553173
+8,RBN,flowering/architecture,E,454,5,-0.1439347238290743
+8,RBN,flowering/architecture,GE,454,5,0.15213290971553173
+8,rosetteDM,growth allometry,G,254,4,-0.25919477594615303
+8,rosetteDM,growth allometry,E,254,4,0.2124455519498391
+8,rosetteDM,growth allometry,GE,254,4,0.18605719837409646
+8,fruitNo,growth allometry,G,248,4,0.04305526123077491
+8,fruitNo,growth allometry,E,248,4,0.09513589165241562
+8,fruitNo,growth allometry,GE,248,4,0.26967558517105694
+8,RGR,growth allometry,G,250,4,0.11851275685546839
+8,RGR,growth allometry,E,250,4,-0.14928359300451458
+8,RGR,growth allometry,GE,250,4,0.09089507699440938
+8,pollination,pollination,G,130,6,-0.2201922472781277
+8,pollination,pollination,E,130,6,-0.2416377803981959
+8,pollination,pollination,GE,130,6,-0.2310444119401015
+8,raffinose22,seed chemistry,G,131,3,-0.09830502371055871
+8,raffinose22,seed chemistry,E,131,3,-0.05415764915841299
+8,raffinose22,seed chemistry,GE,131,3,-0.09782990181108042
+8,raffinose32,seed chemistry,G,131,3,0.019456749632946274
+8,raffinose32,seed chemistry,E,131,3,-0.004012258129146431
+8,raffinose32,seed chemistry,GE,131,3,0.011995272064274254
+8,stomataDens_A,stomata/gas exchange,G,149,2,-0.02805899016676991
+8,stomataDens_A,stomata/gas exchange,E,149,2,-0.02882530309924297
+8,stomataDens_A,stomata/gas exchange,GE,149,2,-0.02093020691194382
+8,delta13C_A,stomata/gas exchange,G,149,2,0.16072219531808224
+8,delta13C_A,stomata/gas exchange,E,149,2,-0.05361186337198958
+8,delta13C_A,stomata/gas exchange,GE,149,2,-0.015054342044232095
+8,stomataDens_B,stomata/gas exchange,G,190,5,0.03888540422258909
+8,stomataDens_B,stomata/gas exchange,E,190,5,0.00598850464977976
+8,stomataDens_B,stomata/gas exchange,GE,190,5,0.015076755259482398
+8,stomataSize_A,stomata/gas exchange,G,149,2,-0.0621005904858301
+8,stomataSize_A,stomata/gas exchange,E,149,2,0.03187571576826408
+8,stomataSize_A,stomata/gas exchange,GE,149,2,-0.0621005904858301
+8,stomataSize_B,stomata/gas exchange,G,190,5,0.12159682587751272
+8,stomataSize_B,stomata/gas exchange,E,190,5,0.20800920101131548
+8,stomataSize_B,stomata/gas exchange,GE,190,5,0.2660567676284177
+8,trichDensity,trichome/metal,G,120,4,-0.2237831483196061
+8,trichDensity,trichome/metal,E,120,4,-0.15046789924754872
+8,trichDensity,trichome/metal,GE,120,4,-0.13574805800854123
+8,trichStemLen,trichome/metal,G,118,4,-0.030067940261638337
+8,trichStemLen,trichome/metal,E,118,4,-0.14892600584775623
+8,trichStemLen,trichome/metal,GE,118,4,-0.021366249769202372
+8,trichArea,trichome/metal,G,116,4,0.19365432894303358
+8,trichArea,trichome/metal,E,116,4,-0.21548515820281122
+8,trichArea,trichome/metal,GE,116,4,0.19365432894303358
+8,trichAutofluor,trichome/metal,G,120,4,-0.12900383224694806
+8,trichAutofluor,trichome/metal,E,120,4,0.12973653935761764
+8,trichAutofluor,trichome/metal,GE,120,4,0.12185515987795606
+8,trichBranches,trichome/metal,G,119,4,-0.1987037097696469
+8,trichBranches,trichome/metal,E,119,4,-0.1642333612181507
+8,trichBranches,trichome/metal,GE,119,4,-0.1987037097696469
+8,trichLen,trichome/metal,G,116,4,0.12270302290489514
+8,trichLen,trichome/metal,E,116,4,-0.18139492870019402
+8,trichLen,trichome/metal,GE,116,4,0.12270302290489514

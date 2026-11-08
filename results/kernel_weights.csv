@@ -1,0 +1,356 @@
+trait_id,group,h2,cv,rep,fold,n_train,w,alpha
+seeds_thp,fitness,0.545440935391662,random,0,0,269,1.0,0.1
+seeds_thp,fitness,0.545440935391662,random,0,1,269,0.75,1.0
+seeds_thp,fitness,0.545440935391662,random,0,2,270,1.0,0.01
+seeds_thp,fitness,0.545440935391662,random,0,3,270,0.75,0.1
+seeds_thp,fitness,0.545440935391662,random,0,4,270,1.0,0.3
+seeds_thp,fitness,0.545440935391662,random,1,0,269,0.75,0.3
+seeds_thp,fitness,0.545440935391662,random,1,1,269,0.75,1.0
+seeds_thp,fitness,0.545440935391662,random,1,2,270,0.75,0.3
+seeds_thp,fitness,0.545440935391662,random,1,3,270,1.0,1.0
+seeds_thp,fitness,0.545440935391662,random,1,4,270,1.0,0.01
+seeds_thp,fitness,0.545440935391662,lopo,0,0,87,0.75,0.3
+seeds_thp,fitness,0.545440935391662,lopo,0,1,274,1.0,0.1
+seeds_thp,fitness,0.545440935391662,lopo,0,2,313,1.0,0.1
+seeds_thi,fitness,0.5315371738339199,random,0,0,269,1.0,3.0
+seeds_thi,fitness,0.5315371738339199,random,0,1,269,0.75,1.0
+seeds_thi,fitness,0.5315371738339199,random,0,2,270,0.75,1.0
+seeds_thi,fitness,0.5315371738339199,random,0,3,270,0.75,1.0
+seeds_thi,fitness,0.5315371738339199,random,0,4,270,1.0,1.0
+seeds_thi,fitness,0.5315371738339199,random,1,0,269,0.75,1.0
+seeds_thi,fitness,0.5315371738339199,random,1,1,269,1.0,0.3
+seeds_thi,fitness,0.5315371738339199,random,1,2,270,0.5,3.0
+seeds_thi,fitness,0.5315371738339199,random,1,3,270,0.75,1.0
+seeds_thi,fitness,0.5315371738339199,random,1,4,270,0.5,3.0
+seeds_thi,fitness,0.5315371738339199,lopo,0,0,87,1.0,1.0
+seeds_thi,fitness,0.5315371738339199,lopo,0,1,274,1.0,1.0
+seeds_thi,fitness,0.5315371738339199,lopo,0,2,313,1.0,1.0
+fit_thp,fitness,0.3323656208654269,random,0,0,269,1.0,0.3
+fit_thp,fitness,0.3323656208654269,random,0,1,269,1.0,0.3
+fit_thp,fitness,0.3323656208654269,random,0,2,270,1.0,3.0
+fit_thp,fitness,0.3323656208654269,random,0,3,270,0.75,1.0
+fit_thp,fitness,0.3323656208654269,random,0,4,270,1.0,1.0
+fit_thp,fitness,0.3323656208654269,random,1,0,269,0.75,1.0
+fit_thp,fitness,0.3323656208654269,random,1,1,269,1.0,1.0
+fit_thp,fitness,0.3323656208654269,random,1,2,270,0.75,1.0
+fit_thp,fitness,0.3323656208654269,random,1,3,270,1.0,1.0
+fit_thp,fitness,0.3323656208654269,random,1,4,270,0.75,0.3
+fit_thp,fitness,0.3323656208654269,lopo,0,0,87,0.75,1.0
+fit_thp,fitness,0.3323656208654269,lopo,0,1,274,1.0,3.0
+fit_thp,fitness,0.3323656208654269,lopo,0,2,313,1.0,3.0
+fit_mhi,fitness,0.3150754947230711,random,0,0,269,0.75,0.1
+fit_mhi,fitness,0.3150754947230711,random,0,1,269,0.0,3.0
+fit_mhi,fitness,0.3150754947230711,random,0,2,270,1.0,0.1
+fit_mhi,fitness,0.3150754947230711,random,0,3,270,0.0,30.0
+fit_mhi,fitness,0.3150754947230711,random,0,4,270,1.0,0.3
+fit_mhi,fitness,0.3150754947230711,random,1,0,269,0.0,10.0
+fit_mhi,fitness,0.3150754947230711,random,1,1,269,1.0,0.3
+fit_mhi,fitness,0.3150754947230711,random,1,2,270,1.0,1.0
+fit_mhi,fitness,0.3150754947230711,random,1,3,270,0.75,1.0
+fit_mhi,fitness,0.3150754947230711,random,1,4,270,0.75,1.0
+fit_mhi,fitness,0.3150754947230711,lopo,0,0,87,0.0,1.0
+fit_mhi,fitness,0.3150754947230711,lopo,0,1,274,0.0,10.0
+fit_mhi,fitness,0.3150754947230711,lopo,0,2,313,0.75,1.0
+surv_mli,fitness,0.3103231148312384,random,0,0,269,1.0,0.3
+surv_mli,fitness,0.3103231148312384,random,0,1,269,0.75,1.0
+surv_mli,fitness,0.3103231148312384,random,0,2,270,1.0,1.0
+surv_mli,fitness,0.3103231148312384,random,0,3,270,1.0,1.0
+surv_mli,fitness,0.3103231148312384,random,0,4,270,1.0,1.0
+surv_mli,fitness,0.3103231148312384,random,1,0,269,1.0,0.1
+surv_mli,fitness,0.3103231148312384,random,1,1,269,1.0,1.0
+surv_mli,fitness,0.3103231148312384,random,1,2,270,0.75,1.0
+surv_mli,fitness,0.3103231148312384,random,1,3,270,1.0,0.3
+surv_mli,fitness,0.3103231148312384,random,1,4,270,0.75,1.0
+surv_mli,fitness,0.3103231148312384,lopo,0,0,87,1.0,3.0
+surv_mli,fitness,0.3103231148312384,lopo,0,1,274,0.75,1.0
+surv_mli,fitness,0.3103231148312384,lopo,0,2,313,0.75,1.0
+seeds_mhp,fitness,0.2617295486634802,random,0,0,269,1.0,1.0
+seeds_mhp,fitness,0.2617295486634802,random,0,1,269,1.0,1.0
+seeds_mhp,fitness,0.2617295486634802,random,0,2,270,0.75,3.0
+seeds_mhp,fitness,0.2617295486634802,random,0,3,270,1.0,3.0
+seeds_mhp,fitness,0.2617295486634802,random,0,4,270,1.0,3.0
+seeds_mhp,fitness,0.2617295486634802,random,1,0,269,0.5,1.0
+seeds_mhp,fitness,0.2617295486634802,random,1,1,269,0.5,3.0
+seeds_mhp,fitness,0.2617295486634802,random,1,2,270,1.0,1.0
+seeds_mhp,fitness,0.2617295486634802,random,1,3,270,1.0,1.0
+seeds_mhp,fitness,0.2617295486634802,random,1,4,270,1.0,3.0
+seeds_mhp,fitness,0.2617295486634802,lopo,0,0,87,0.75,1.0
+seeds_mhp,fitness,0.2617295486634802,lopo,0,1,274,0.25,3.0
+seeds_mhp,fitness,0.2617295486634802,lopo,0,2,313,1.0,3.0
+FT16,flowering,0.8781074407640247,random,0,0,504,0.75,0.01
+FT16,flowering,0.8781074407640247,random,0,1,505,0.5,0.01
+FT16,flowering,0.8781074407640247,random,0,2,505,0.5,0.01
+FT16,flowering,0.8781074407640247,random,0,3,505,0.5,0.01
+FT16,flowering,0.8781074407640247,random,0,4,505,0.5,0.01
+FT16,flowering,0.8781074407640247,random,1,0,504,0.75,0.01
+FT16,flowering,0.8781074407640247,random,1,1,505,0.5,0.01
+FT16,flowering,0.8781074407640247,random,1,2,505,0.5,0.01
+FT16,flowering,0.8781074407640247,random,1,3,505,0.5,0.01
+FT16,flowering,0.8781074407640247,random,1,4,505,0.5,0.01
+FT16,flowering,0.8781074407640247,lopo,0,0,248,0.5,0.01
+FT16,flowering,0.8781074407640247,lopo,0,1,483,0.75,0.01
+FT16,flowering,0.8781074407640247,lopo,0,2,578,0.75,0.01
+FT16,flowering,0.8781074407640247,lopo,0,3,612,0.5,0.01
+FT16,flowering,0.8781074407640247,lopo,0,4,615,0.5,0.01
+FT16,flowering,0.8781074407640247,lopo,0,5,619,0.5,0.01
+DTF2,flowering/architecture,0.8949044858496531,random,0,0,494,0.75,0.01
+DTF2,flowering/architecture,0.8949044858496531,random,0,1,494,0.75,0.01
+DTF2,flowering/architecture,0.8949044858496531,random,0,2,494,0.5,0.01
+DTF2,flowering/architecture,0.8949044858496531,random,0,3,495,0.5,0.01
+DTF2,flowering/architecture,0.8949044858496531,random,0,4,495,0.75,0.03
+DTF2,flowering/architecture,0.8949044858496531,random,1,0,494,0.75,0.01
+DTF2,flowering/architecture,0.8949044858496531,random,1,1,494,0.75,0.01
+DTF2,flowering/architecture,0.8949044858496531,random,1,2,494,0.75,0.03
+DTF2,flowering/architecture,0.8949044858496531,random,1,3,495,0.5,0.01
+DTF2,flowering/architecture,0.8949044858496531,random,1,4,495,0.5,0.01
+DTF2,flowering/architecture,0.8949044858496531,lopo,0,0,243,0.5,0.01
+DTF2,flowering/architecture,0.8949044858496531,lopo,0,1,474,0.75,0.01
+DTF2,flowering/architecture,0.8949044858496531,lopo,0,2,565,0.75,0.01
+DTF2,flowering/architecture,0.8949044858496531,lopo,0,3,599,0.5,0.01
+DTF2,flowering/architecture,0.8949044858496531,lopo,0,4,601,0.25,0.01
+DTF2,flowering/architecture,0.8949044858496531,lopo,0,5,608,0.5,0.01
+CL,flowering/architecture,0.7603522451165194,random,0,0,483,0.5,0.01
+CL,flowering/architecture,0.7603522451165194,random,0,1,483,0.5,0.1
+CL,flowering/architecture,0.7603522451165194,random,0,2,483,0.25,0.1
+CL,flowering/architecture,0.7603522451165194,random,0,3,483,0.5,0.01
+CL,flowering/architecture,0.7603522451165194,random,0,4,484,0.25,0.03
+CL,flowering/architecture,0.7603522451165194,random,1,0,483,0.5,0.1
+CL,flowering/architecture,0.7603522451165194,random,1,1,483,0.25,0.01
+CL,flowering/architecture,0.7603522451165194,random,1,2,483,0.5,0.01
+CL,flowering/architecture,0.7603522451165194,random,1,3,483,0.5,0.03
+CL,flowering/architecture,0.7603522451165194,random,1,4,484,0.25,0.1
+CL,flowering/architecture,0.7603522451165194,lopo,0,0,235,0.5,3.0
+CL,flowering/architecture,0.7603522451165194,lopo,0,1,462,0.0,1.0
+CL,flowering/architecture,0.7603522451165194,lopo,0,2,551,0.0,0.03
+CL,flowering/architecture,0.7603522451165194,lopo,0,3,586,0.0,0.1
+CL,flowering/architecture,0.7603522451165194,lopo,0,4,592,0.0,0.1
+CL,flowering/architecture,0.7603522451165194,lopo,0,5,594,0.0,0.1
+RBN,flowering/architecture,0.4388976546474292,random,0,0,363,1.0,0.3
+RBN,flowering/architecture,0.4388976546474292,random,0,1,363,1.0,3.0
+RBN,flowering/architecture,0.4388976546474292,random,0,2,363,0.75,1.0
+RBN,flowering/architecture,0.4388976546474292,random,0,3,363,1.0,1.0
+RBN,flowering/architecture,0.4388976546474292,random,0,4,364,1.0,3.0
+RBN,flowering/architecture,0.4388976546474292,random,1,0,363,1.0,1.0
+RBN,flowering/architecture,0.4388976546474292,random,1,1,363,1.0,1.0
+RBN,flowering/architecture,0.4388976546474292,random,1,2,363,1.0,1.0
+RBN,flowering/architecture,0.4388976546474292,random,1,3,363,1.0,3.0
+RBN,flowering/architecture,0.4388976546474292,random,1,4,364,1.0,1.0
+RBN,flowering/architecture,0.4388976546474292,lopo,0,0,158,1.0,0.3
+RBN,flowering/architecture,0.4388976546474292,lopo,0,1,353,1.0,0.03
+RBN,flowering/architecture,0.4388976546474292,lopo,0,2,414,1.0,1.0
+RBN,flowering/architecture,0.4388976546474292,lopo,0,3,437,1.0,0.3
+rosetteDM,growth allometry,0.8556313710657343,random,0,0,203,0.75,0.3
+rosetteDM,growth allometry,0.8556313710657343,random,0,1,203,1.0,0.03
+rosetteDM,growth allometry,0.8556313710657343,random,0,2,203,0.75,0.03
+rosetteDM,growth allometry,0.8556313710657343,random,0,3,203,0.75,1.0
+rosetteDM,growth allometry,0.8556313710657343,random,0,4,204,0.75,0.1
+rosetteDM,growth allometry,0.8556313710657343,random,1,0,203,1.0,0.1
+rosetteDM,growth allometry,0.8556313710657343,random,1,1,203,0.75,0.01
+rosetteDM,growth allometry,0.8556313710657343,random,1,2,203,1.0,0.1
+rosetteDM,growth allometry,0.8556313710657343,random,1,3,203,0.75,0.01
+rosetteDM,growth allometry,0.8556313710657343,random,1,4,204,0.75,0.1
+rosetteDM,growth allometry,0.8556313710657343,lopo,0,0,91,0.75,0.1
+rosetteDM,growth allometry,0.8556313710657343,lopo,0,1,190,0.5,0.01
+rosetteDM,growth allometry,0.8556313710657343,lopo,0,2,227,0.75,0.3
+fruitNo,growth allometry,0.754429940422918,random,0,0,198,0.75,0.01
+fruitNo,growth allometry,0.754429940422918,random,0,1,198,1.0,0.3
+fruitNo,growth allometry,0.754429940422918,random,0,2,198,0.75,0.3
+fruitNo,growth allometry,0.754429940422918,random,0,3,199,1.0,1.0
+fruitNo,growth allometry,0.754429940422918,random,0,4,199,1.0,0.3
+fruitNo,growth allometry,0.754429940422918,random,1,0,198,1.0,0.01
+fruitNo,growth allometry,0.754429940422918,random,1,1,198,1.0,0.1
+fruitNo,growth allometry,0.754429940422918,random,1,2,198,1.0,0.3
+fruitNo,growth allometry,0.754429940422918,random,1,3,199,0.75,0.01
+fruitNo,growth allometry,0.754429940422918,random,1,4,199,1.0,0.3
+fruitNo,growth allometry,0.754429940422918,lopo,0,0,89,1.0,0.01
+fruitNo,growth allometry,0.754429940422918,lopo,0,1,186,0.75,0.3
+fruitNo,growth allometry,0.754429940422918,lopo,0,2,221,1.0,0.3
+RGR,growth allometry,0.3398057175520645,random,0,0,200,1.0,0.01
+RGR,growth allometry,0.3398057175520645,random,0,1,200,1.0,0.3
+RGR,growth allometry,0.3398057175520645,random,0,2,200,0.75,3.0
+RGR,growth allometry,0.3398057175520645,random,0,3,200,1.0,1.0
+RGR,growth allometry,0.3398057175520645,random,0,4,200,1.0,1.0
+RGR,growth allometry,0.3398057175520645,random,1,0,200,1.0,0.3
+RGR,growth allometry,0.3398057175520645,random,1,1,200,1.0,3.0
+RGR,growth allometry,0.3398057175520645,random,1,2,200,0.75,1.0
+RGR,growth allometry,0.3398057175520645,random,1,3,200,1.0,3.0
+RGR,growth allometry,0.3398057175520645,random,1,4,200,0.75,1.0
+RGR,growth allometry,0.3398057175520645,lopo,0,0,91,1.0,10.0
+RGR,growth allometry,0.3398057175520645,lopo,0,1,186,0.75,3.0
+RGR,growth allometry,0.3398057175520645,lopo,0,2,223,1.0,3.0
+pollination,pollination,0.787777036134442,random,0,0,104,1.0,3.0
+pollination,pollination,0.787777036134442,random,0,1,104,0.5,0.1
+pollination,pollination,0.787777036134442,random,0,2,104,1.0,100.0
+pollination,pollination,0.787777036134442,random,0,3,104,1.0,0.01
+pollination,pollination,0.787777036134442,random,0,4,104,1.0,0.01
+pollination,pollination,0.787777036134442,random,1,0,104,0.5,1.0
+pollination,pollination,0.787777036134442,random,1,1,104,1.0,1.0
+pollination,pollination,0.787777036134442,random,1,2,104,1.0,0.3
+pollination,pollination,0.787777036134442,random,1,3,104,0.0,100.0
+pollination,pollination,0.787777036134442,random,1,4,104,1.0,1.0
+pollination,pollination,0.787777036134442,lopo,0,0,71,0.0,10.0
+pollination,pollination,0.787777036134442,lopo,0,1,87,1.0,100.0
+pollination,pollination,0.787777036134442,lopo,0,2,114,1.0,100.0
+pollination,pollination,0.787777036134442,lopo,0,3,118,0.0,0.01
+raffinose22,seed chemistry,0.3787944744393884,random,0,0,104,0.0,100.0
+raffinose22,seed chemistry,0.3787944744393884,random,0,1,105,0.75,3.0
+raffinose22,seed chemistry,0.3787944744393884,random,0,2,105,1.0,0.3
+raffinose22,seed chemistry,0.3787944744393884,random,0,3,105,0.0,10.0
+raffinose22,seed chemistry,0.3787944744393884,random,0,4,105,1.0,10.0
+raffinose22,seed chemistry,0.3787944744393884,random,1,0,104,0.75,1.0
+raffinose22,seed chemistry,0.3787944744393884,random,1,1,105,0.0,30.0
+raffinose22,seed chemistry,0.3787944744393884,random,1,2,105,0.5,1.0
+raffinose22,seed chemistry,0.3787944744393884,random,1,3,105,0.5,3.0
+raffinose22,seed chemistry,0.3787944744393884,random,1,4,105,1.0,10.0
+raffinose22,seed chemistry,0.3787944744393884,lopo,0,0,47,0.5,0.01
+raffinose22,seed chemistry,0.3787944744393884,lopo,0,1,84,0.25,3.0
+raffinose32,seed chemistry,0.2520344390566462,random,0,0,104,0.25,3.0
+raffinose32,seed chemistry,0.2520344390566462,random,0,1,105,0.5,3.0
+raffinose32,seed chemistry,0.2520344390566462,random,0,2,105,0.5,1.0
+raffinose32,seed chemistry,0.2520344390566462,random,0,3,105,0.25,3.0
+raffinose32,seed chemistry,0.2520344390566462,random,0,4,105,0.75,3.0
+raffinose32,seed chemistry,0.2520344390566462,random,1,0,104,0.5,1.0
+raffinose32,seed chemistry,0.2520344390566462,random,1,1,105,0.5,3.0
+raffinose32,seed chemistry,0.2520344390566462,random,1,2,105,0.5,3.0
+raffinose32,seed chemistry,0.2520344390566462,random,1,3,105,0.5,1.0
+raffinose32,seed chemistry,0.2520344390566462,random,1,4,105,0.25,1.0
+raffinose32,seed chemistry,0.2520344390566462,lopo,0,0,47,0.0,1.0
+raffinose32,seed chemistry,0.2520344390566462,lopo,0,1,84,0.75,0.3
+stomataDens_A,stomata/gas exchange,0.7195189457597664,random,0,0,119,1.0,0.01
+stomataDens_A,stomata/gas exchange,0.7195189457597664,random,0,1,119,0.25,1.0
+stomataDens_A,stomata/gas exchange,0.7195189457597664,random,0,2,119,1.0,0.01
+stomataDens_A,stomata/gas exchange,0.7195189457597664,random,0,3,119,1.0,1.0
+stomataDens_A,stomata/gas exchange,0.7195189457597664,random,0,4,120,0.75,0.1
+stomataDens_A,stomata/gas exchange,0.7195189457597664,random,1,0,119,0.0,1.0
+stomataDens_A,stomata/gas exchange,0.7195189457597664,random,1,1,119,1.0,1.0
+stomataDens_A,stomata/gas exchange,0.7195189457597664,random,1,2,119,1.0,0.01
+stomataDens_A,stomata/gas exchange,0.7195189457597664,random,1,3,119,1.0,1.0
+stomataDens_A,stomata/gas exchange,0.7195189457597664,random,1,4,120,1.0,3.0
+stomataDens_A,stomata/gas exchange,0.7195189457597664,lopo,0,0,43,0.25,0.01
+stomataDens_A,stomata/gas exchange,0.7195189457597664,lopo,0,1,106,0.75,0.3
+delta13C_A,stomata/gas exchange,0.658718506533539,random,0,0,119,0.75,1.0
+delta13C_A,stomata/gas exchange,0.658718506533539,random,0,1,119,1.0,0.01
+delta13C_A,stomata/gas exchange,0.658718506533539,random,0,2,119,1.0,0.1
+delta13C_A,stomata/gas exchange,0.658718506533539,random,0,3,119,0.25,0.1
+delta13C_A,stomata/gas exchange,0.658718506533539,random,0,4,120,1.0,0.1
+delta13C_A,stomata/gas exchange,0.658718506533539,random,1,0,119,1.0,0.01
+delta13C_A,stomata/gas exchange,0.658718506533539,random,1,1,119,0.75,3.0
+delta13C_A,stomata/gas exchange,0.658718506533539,random,1,2,119,1.0,0.01
+delta13C_A,stomata/gas exchange,0.658718506533539,random,1,3,119,0.5,0.1
+delta13C_A,stomata/gas exchange,0.658718506533539,random,1,4,120,1.0,0.01
+delta13C_A,stomata/gas exchange,0.658718506533539,lopo,0,0,43,0.0,0.01
+delta13C_A,stomata/gas exchange,0.658718506533539,lopo,0,1,106,1.0,1.0
+stomataDens_B,stomata/gas exchange,0.5855622624430386,random,0,0,152,1.0,0.3
+stomataDens_B,stomata/gas exchange,0.5855622624430386,random,0,1,152,0.0,1.0
+stomataDens_B,stomata/gas exchange,0.5855622624430386,random,0,2,152,1.0,1.0
+stomataDens_B,stomata/gas exchange,0.5855622624430386,random,0,3,152,0.25,3.0
+stomataDens_B,stomata/gas exchange,0.5855622624430386,random,0,4,152,1.0,0.3
+stomataDens_B,stomata/gas exchange,0.5855622624430386,random,1,0,152,1.0,0.3
+stomataDens_B,stomata/gas exchange,0.5855622624430386,random,1,1,152,1.0,3.0
+stomataDens_B,stomata/gas exchange,0.5855622624430386,random,1,2,152,1.0,3.0
+stomataDens_B,stomata/gas exchange,0.5855622624430386,random,1,3,152,0.0,3.0
+stomataDens_B,stomata/gas exchange,0.5855622624430386,random,1,4,152,0.25,0.1
+stomataDens_B,stomata/gas exchange,0.5855622624430386,lopo,0,0,51,0.0,3.0
+stomataDens_B,stomata/gas exchange,0.5855622624430386,lopo,0,1,139,1.0,0.3
+stomataSize_A,stomata/gas exchange,0.5329618804655544,random,0,0,119,0.75,0.03
+stomataSize_A,stomata/gas exchange,0.5329618804655544,random,0,1,119,1.0,30.0
+stomataSize_A,stomata/gas exchange,0.5329618804655544,random,0,2,119,0.75,0.3
+stomataSize_A,stomata/gas exchange,0.5329618804655544,random,0,3,119,1.0,0.01
+stomataSize_A,stomata/gas exchange,0.5329618804655544,random,0,4,120,0.75,0.3
+stomataSize_A,stomata/gas exchange,0.5329618804655544,random,1,0,119,0.5,1.0
+stomataSize_A,stomata/gas exchange,0.5329618804655544,random,1,1,119,0.5,3.0
+stomataSize_A,stomata/gas exchange,0.5329618804655544,random,1,2,119,1.0,0.01
+stomataSize_A,stomata/gas exchange,0.5329618804655544,random,1,3,119,0.75,0.3
+stomataSize_A,stomata/gas exchange,0.5329618804655544,random,1,4,120,0.25,0.01
+stomataSize_A,stomata/gas exchange,0.5329618804655544,lopo,0,0,43,1.0,0.01
+stomataSize_A,stomata/gas exchange,0.5329618804655544,lopo,0,1,106,1.0,0.3
+stomataSize_B,stomata/gas exchange,0.4723620049926988,random,0,0,152,0.75,1.0
+stomataSize_B,stomata/gas exchange,0.4723620049926988,random,0,1,152,0.5,1.0
+stomataSize_B,stomata/gas exchange,0.4723620049926988,random,0,2,152,1.0,0.3
+stomataSize_B,stomata/gas exchange,0.4723620049926988,random,0,3,152,1.0,0.3
+stomataSize_B,stomata/gas exchange,0.4723620049926988,random,0,4,152,1.0,3.0
+stomataSize_B,stomata/gas exchange,0.4723620049926988,random,1,0,152,1.0,1.0
+stomataSize_B,stomata/gas exchange,0.4723620049926988,random,1,1,152,1.0,3.0
+stomataSize_B,stomata/gas exchange,0.4723620049926988,random,1,2,152,1.0,1.0
+stomataSize_B,stomata/gas exchange,0.4723620049926988,random,1,3,152,0.5,1.0
+stomataSize_B,stomata/gas exchange,0.4723620049926988,random,1,4,152,0.75,0.01
+stomataSize_B,stomata/gas exchange,0.4723620049926988,lopo,0,0,51,1.0,0.01
+stomataSize_B,stomata/gas exchange,0.4723620049926988,lopo,0,1,139,1.0,1.0
+trichDensity,trichome/metal,0.5771554396096666,random,0,0,96,0.75,1.0
+trichDensity,trichome/metal,0.5771554396096666,random,0,1,96,1.0,0.01
+trichDensity,trichome/metal,0.5771554396096666,random,0,2,96,0.75,0.3
+trichDensity,trichome/metal,0.5771554396096666,random,0,3,96,0.75,0.3
+trichDensity,trichome/metal,0.5771554396096666,random,0,4,96,1.0,0.01
+trichDensity,trichome/metal,0.5771554396096666,random,1,0,96,0.25,0.1
+trichDensity,trichome/metal,0.5771554396096666,random,1,1,96,0.25,0.3
+trichDensity,trichome/metal,0.5771554396096666,random,1,2,96,1.0,0.3
+trichDensity,trichome/metal,0.5771554396096666,random,1,3,96,1.0,0.1
+trichDensity,trichome/metal,0.5771554396096666,random,1,4,96,0.75,1.0
+trichDensity,trichome/metal,0.5771554396096666,lopo,0,0,61,1.0,0.3
+trichDensity,trichome/metal,0.5771554396096666,lopo,0,1,77,0.0,0.01
+trichDensity,trichome/metal,0.5771554396096666,lopo,0,2,102,0.75,0.3
+trichStemLen,trichome/metal,0.5735879057747171,random,0,0,94,1.0,0.3
+trichStemLen,trichome/metal,0.5735879057747171,random,0,1,94,0.75,0.01
+trichStemLen,trichome/metal,0.5735879057747171,random,0,2,94,1.0,0.03
+trichStemLen,trichome/metal,0.5735879057747171,random,0,3,95,0.75,0.3
+trichStemLen,trichome/metal,0.5735879057747171,random,0,4,95,0.75,0.3
+trichStemLen,trichome/metal,0.5735879057747171,random,1,0,94,0.75,0.01
+trichStemLen,trichome/metal,0.5735879057747171,random,1,1,94,1.0,0.1
+trichStemLen,trichome/metal,0.5735879057747171,random,1,2,94,1.0,0.03
+trichStemLen,trichome/metal,0.5735879057747171,random,1,3,95,1.0,1.0
+trichStemLen,trichome/metal,0.5735879057747171,random,1,4,95,1.0,0.03
+trichStemLen,trichome/metal,0.5735879057747171,lopo,0,0,61,1.0,0.01
+trichStemLen,trichome/metal,0.5735879057747171,lopo,0,1,75,1.0,0.01
+trichStemLen,trichome/metal,0.5735879057747171,lopo,0,2,100,0.75,0.1
+trichArea,trichome/metal,0.4884898586916547,random,0,0,92,1.0,0.3
+trichArea,trichome/metal,0.4884898586916547,random,0,1,93,1.0,30.0
+trichArea,trichome/metal,0.4884898586916547,random,0,2,93,0.75,0.03
+trichArea,trichome/metal,0.4884898586916547,random,0,3,93,0.5,3.0
+trichArea,trichome/metal,0.4884898586916547,random,0,4,93,0.5,0.1
+trichArea,trichome/metal,0.4884898586916547,random,1,0,92,0.75,3.0
+trichArea,trichome/metal,0.4884898586916547,random,1,1,93,1.0,0.01
+trichArea,trichome/metal,0.4884898586916547,random,1,2,93,0.0,10.0
+trichArea,trichome/metal,0.4884898586916547,random,1,3,93,0.5,3.0
+trichArea,trichome/metal,0.4884898586916547,random,1,4,93,1.0,0.01
+trichArea,trichome/metal,0.4884898586916547,lopo,0,0,60,1.0,3.0
+trichArea,trichome/metal,0.4884898586916547,lopo,0,1,74,0.0,10.0
+trichArea,trichome/metal,0.4884898586916547,lopo,0,2,98,0.75,0.1
+trichAutofluor,trichome/metal,0.468715889843392,random,0,0,96,0.25,1.0
+trichAutofluor,trichome/metal,0.468715889843392,random,0,1,96,0.0,0.03
+trichAutofluor,trichome/metal,0.468715889843392,random,0,2,96,0.75,0.1
+trichAutofluor,trichome/metal,0.468715889843392,random,0,3,96,0.75,0.3
+trichAutofluor,trichome/metal,0.468715889843392,random,0,4,96,0.75,0.1
+trichAutofluor,trichome/metal,0.468715889843392,random,1,0,96,0.25,0.3
+trichAutofluor,trichome/metal,0.468715889843392,random,1,1,96,0.25,1.0
+trichAutofluor,trichome/metal,0.468715889843392,random,1,2,96,0.5,0.3
+trichAutofluor,trichome/metal,0.468715889843392,random,1,3,96,0.75,1.0
+trichAutofluor,trichome/metal,0.468715889843392,random,1,4,96,0.5,0.3
+trichAutofluor,trichome/metal,0.468715889843392,lopo,0,0,61,0.75,0.03
+trichAutofluor,trichome/metal,0.468715889843392,lopo,0,1,77,0.5,1.0
+trichAutofluor,trichome/metal,0.468715889843392,lopo,0,2,102,0.5,0.3
+trichBranches,trichome/metal,0.3824308531858768,random,0,0,95,1.0,1.0
+trichBranches,trichome/metal,0.3824308531858768,random,0,1,95,1.0,0.3
+trichBranches,trichome/metal,0.3824308531858768,random,0,2,95,0.5,0.01
+trichBranches,trichome/metal,0.3824308531858768,random,0,3,95,0.75,0.1
+trichBranches,trichome/metal,0.3824308531858768,random,0,4,96,1.0,0.3
+trichBranches,trichome/metal,0.3824308531858768,random,1,0,95,1.0,1.0
+trichBranches,trichome/metal,0.3824308531858768,random,1,1,95,1.0,0.3
+trichBranches,trichome/metal,0.3824308531858768,random,1,2,95,1.0,0.3
+trichBranches,trichome/metal,0.3824308531858768,random,1,3,95,1.0,0.1
+trichBranches,trichome/metal,0.3824308531858768,random,1,4,96,1.0,0.3
+trichBranches,trichome/metal,0.3824308531858768,lopo,0,0,61,0.5,0.3
+trichBranches,trichome/metal,0.3824308531858768,lopo,0,1,76,1.0,0.1
+trichBranches,trichome/metal,0.3824308531858768,lopo,0,2,101,1.0,1.0
+trichLen,trichome/metal,0.3611852130270173,random,0,0,92,0.75,0.3
+trichLen,trichome/metal,0.3611852130270173,random,0,1,93,0.75,0.01
+trichLen,trichome/metal,0.3611852130270173,random,0,2,93,0.75,0.3
+trichLen,trichome/metal,0.3611852130270173,random,0,3,93,0.75,1.0
+trichLen,trichome/metal,0.3611852130270173,random,0,4,93,0.75,0.03
+trichLen,trichome/metal,0.3611852130270173,random,1,0,92,1.0,0.01
+trichLen,trichome/metal,0.3611852130270173,random,1,1,93,1.0,0.01
+trichLen,trichome/metal,0.3611852130270173,random,1,2,93,1.0,0.3
+trichLen,trichome/metal,0.3611852130270173,random,1,3,93,0.75,0.03
+trichLen,trichome/metal,0.3611852130270173,random,1,4,93,1.0,0.01
+trichLen,trichome/metal,0.3611852130270173,lopo,0,0,60,0.75,0.3
+trichLen,trichome/metal,0.3611852130270173,lopo,0,1,74,0.0,3.0
+trichLen,trichome/metal,0.3611852130270173,lopo,0,2,98,1.0,0.01
