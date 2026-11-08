@@ -1,0 +1,7 @@
+{
+  "n_markers": 12846,
+  "maf_min": 0.05,
+  "bin_bp": 5000,
+  "n_pcs": 20,
+  "n_clusters": 8
+}

@@ -1,0 +1,28 @@
+study_id,study_name,trait,n,n_expr,h2,mean,sd,skew,key,trait_id,group
+34,Lifetime fitness in Germany and Spain under rainfall manipulation,rSeeds thp,511,337,0.545440935391662,1.0003756430489237,0.2075730210991969,0.0439007671508791,34|rSeeds thp,seeds_thp,fitness
+34,Lifetime fitness in Germany and Spain under rainfall manipulation,rSeeds thi,512,337,0.5315371738339199,0.9992641572714844,0.1944814000233722,0.1331149372836678,34|rSeeds thi,seeds_thi,fitness
+34,Lifetime fitness in Germany and Spain under rainfall manipulation,rFitness thp,512,337,0.3323656208654269,0.99936373278125,0.3571065640649057,0.1363261559730103,34|rFitness thp,fit_thp,fitness
+34,Lifetime fitness in Germany and Spain under rainfall manipulation,rFitness mhi,512,337,0.3150754947230711,1.000793273998047,0.2329476113532236,-0.1059685201953002,34|rFitness mhi,fit_mhi,fitness
+34,Lifetime fitness in Germany and Spain under rainfall manipulation,rSurvival fruit mli,512,337,0.3103231148312384,0.9990363534921876,0.7384063594602092,0.426678805892127,34|rSurvival fruit mli,surv_mli,fitness
+34,Lifetime fitness in Germany and Spain under rainfall manipulation,rSeeds mhp,512,337,0.2617295486634802,0.9996953577343748,0.1961010940299729,0.1683967923352731,34|rSeeds mhp,seeds_mhp,fitness
+12,1001genomes flowering time phenotypes,FT16,970,631,0.8781074407640247,74.21146907267011,25.85658871509465,0.5463249149240814,12|FT16,FT16,flowering
+38,1001 Genomes & easyGWAS,DTF2,931,618,0.8949044858496531,69.42937701385607,26.15578477523988,0.574456716873,38|DTF2,DTF2,flowering/architecture
+38,1001 Genomes & easyGWAS,CL,904,604,0.7603522451165194,10.559457964651548,4.555472381901472,1.0942916249396717,38|CL,CL,flowering/architecture
+38,1001 Genomes & easyGWAS,RBN,674,454,0.4388976546474292,4.11881800197181,2.7101663336606387,0.3092045612401818,38|RBN,RBN,flowering/architecture
+31,Adaptive diversification of growth allometry in the plant Arabidopsis thaliana,rosetteDM,407,254,0.8556313710657343,627.283624078624,589.4638038863714,1.863416167924471,31|rosetteDM,rosetteDM,growth allometry
+31,Adaptive diversification of growth allometry in the plant Arabidopsis thaliana,FruitNumber,396,248,0.754429940422918,153.93813131313132,65.21920650201392,0.0763046958573964,31|FruitNumber,fruitNo,growth allometry
+31,Adaptive diversification of growth allometry in the plant Arabidopsis thaliana,RGR,402,250,0.3398057175520645,122.6383534411194,22.492913343762293,0.9633942219890284,31|RGR,RGR,growth allometry
+37,Inter-specific pollination of Arabidopsis thaliana and Malcolmia littorea,Inter-specific pollination of Arabidopsis thaliana and Malcolmia littorea,283,130,0.787777036134442,2.5656116949293284,1.423969757711456,0.378090542881541,37|Inter-specific pollination of Arabidopsis thaliana and Malcolmia littorea,pollination,pollination
+127,Raffinose (22°C and 32°C),Raffinose 22C,250,131,0.3787944744393884,27.76392,24.24426995262475,3.467354900560517,127|Raffinose 22C,raffinose22,seed chemistry
+127,Raffinose (22°C and 32°C),Raffinose 32C,250,131,0.2520344390566462,147.06056,90.05352827014613,2.19084829098163,127|Raffinose 32C,raffinose32,seed chemistry
+43,Natural variation in stomata size (Dittberner et al. 2018),stomata density 261,261,149,0.7195189457597664,130.01277139208122,25.081913809891773,0.2939926257593573,43|stomata density 261,stomataDens_A,stomata/gas exchange
+43,Natural variation in stomata size (Dittberner et al. 2018),delta 13C 261,261,149,0.658718506533539,-35.57354082595632,1.1896161039803086,0.3607671077151081,43|delta 13C 261,delta13C_A,stomata/gas exchange
+43,Natural variation in stomata size (Dittberner et al. 2018),stomata density,330,190,0.5855622624430386,144.3821548821567,21.28271611716904,0.1325858918607193,43|stomata density,stomataDens_B,stomata/gas exchange
+43,Natural variation in stomata size (Dittberner et al. 2018),Stomatasize 261,261,149,0.5329618804655544,110.45936081463104,8.25946090518501,0.661898596296792,43|Stomatasize 261,stomataSize_A,stomata/gas exchange
+43,Natural variation in stomata size (Dittberner et al. 2018),stomatasize,330,190,0.4723620049926988,111.05286127095424,6.773893573000362,0.3921001885761374,43|stomatasize,stomataSize_B,stomata/gas exchange
+126,trichome_development_epidermis_metal_traits,Trichome density,309,120,0.5771554396096666,2.4676375404530746,0.8051707397469073,-0.532785881693321,126|Trichome density,trichDensity,trichome/metal
+126,trichome_development_epidermis_metal_traits,Trichome stem length,305,118,0.5735879057747171,0.2387868852459017,0.0480833687854047,0.25416995616679,126|Trichome stem length,trichStemLen,trichome/metal
+126,trichome_development_epidermis_metal_traits,Trichome area,302,116,0.4884898586916547,22363.12556291391,6067.608117878988,0.2352212602112692,126|Trichome area,trichArea,trichome/metal
+126,trichome_development_epidermis_metal_traits,Trichome autofluorescence,309,120,0.468715889843392,1.7928802588996764,0.8692890373291914,-0.05167164478268,126|Trichome autofluorescence,trichAutofluor,trichome/metal
+126,trichome_development_epidermis_metal_traits,Number of trichome branches,307,119,0.3824308531858768,2.7035830618892507,0.3683830533025765,-0.7124293082042922,126|Number of trichome branches,trichBranches,trichome/metal
+126,trichome_development_epidermis_metal_traits,Trichome length,302,116,0.3611852130270173,2638.0471556291386,848.0720404274686,0.7682552078068497,126|Trichome length,trichLen,trichome/metal
