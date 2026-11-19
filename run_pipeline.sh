@@ -6,7 +6,7 @@ cd "$(dirname "$0")"
 PY="${PYTHON:-python}"
 export PYTHONIOENCODING=utf-8
 export OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1
-mkdir -p logs figures results manuscript/tables
+mkdir -p logs results work
 
 run() {
     echo "[$(date '+%H:%M:%S')] $*"
@@ -31,7 +31,12 @@ run "$PY" scripts/15_export_splits.py      > logs/15_export_splits.log 2>&1
 run "$PY" scripts/17_weights.py            > logs/17_weights.log 2>&1
 run "$PY" scripts/18_sensitivity.py        > logs/18_sensitivity.log 2>&1
 run "$PY" scripts/13_analysis.py           > logs/13_analysis.log 2>&1
-run "$PY" scripts/14_figures.py            > logs/14_figures.log 2>&1
-run "$PY" scripts/16_tables.py             > logs/16_tables.log 2>&1
-run "$PY" scripts/19_sensitivity_tables.py > logs/19_sensitivity_tables.log 2>&1
+run "$PY" scripts/20_diversity_relatedness.py > logs/20_diversity.log 2>&1
+run "$PY" scripts/21_augmentation.py 6     > logs/21_augmentation.log 2>&1
+RAW="${ARABIDOPSIS_DATA_DIR:-data}/03_transcriptome_1001T/GSE80744_ath1001_tx_norm_2016-04-21-UQ_gNorm_normCounts_k4.tsv.gz"
+if [ -f "$RAW" ]; then
+    run "$PY" scripts/22_strict_pipeline.py 5 > logs/22_strict.log 2>&1
+else
+    echo "Skipping 22_strict_pipeline.py: raw GSE80744 counts not found (set ARABIDOPSIS_DATA_DIR)."
+fi
 echo "Pipeline finished."

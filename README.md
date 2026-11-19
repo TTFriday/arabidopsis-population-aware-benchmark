@@ -1,7 +1,9 @@
 # arabidopsis-population-aware-benchmark
 
 Code and processed data for a population-aware benchmark of genomic and
-transcriptomic prediction in *Arabidopsis thaliana*.
+transcriptomic prediction in *Arabidopsis thaliana*, together with follow-up
+analyses of genetic differentiation and target-group phenotyping for
+germplasm evaluation.
 
 The benchmark compares genomic (G), transcriptomic (E), and combined (G+E)
 prediction with kernel ridge regression (KRR), Lasso, and histogram gradient
@@ -14,10 +16,14 @@ source cohorts.
 
 ```
 scripts/          analysis pipeline (numbered in run order) + benchmark_lib.py
+                  + grce_common.py and follow-up analyses 20-22
 data_processed/   QC'd genotype/expression matrices, kernels, PCs, phenotypes,
                   population labels, and exported CV splits
 results/          benchmark outputs: per-trait accuracy, heritability, transfer,
-                  permutation controls, enrichment, sensitivity analyses
+                  permutation controls, enrichment, sensitivity analyses,
+                  out-of-fold predictions (full/oof/), and follow-up tables
+                  (diversity/, augmentation/, strict_pipeline/);
+                  archived_tables/ holds the numerical manuscript tables
 run_pipeline.sh   one-command full rebuild
 requirements.txt  pinned Python dependencies
 ```
@@ -59,7 +65,8 @@ pip install -r requirements.txt
 ```
 
 The pipeline runs on a desktop CPU; no GPU is required. The prediction steps
-(09, 17, 18) are the most compute-intensive and may take several hours.
+(09, 17, 18) and the augmentation step (21) are the most compute-intensive and
+may take several hours.
 
 ## Running
 
@@ -67,7 +74,9 @@ Two entry points:
 
 1. **From the included processed data** (no raw downloads needed): run
    `scripts/09_prediction.py` onward. All downstream scripts read
-   `data_processed/` and write to `results/`.
+   `data_processed/` and write to `results/`. Step 22 additionally needs the
+   raw GSE80744 count table (see `ARABIDOPSIS_DATA_DIR`); it is skipped
+   automatically when that file is absent.
 
 2. **Full rebuild from raw data**: run the whole pipeline in order:
 
@@ -77,15 +86,39 @@ bash run_pipeline.sh
 
 or set `PYTHON` to a specific interpreter, e.g.
 `PYTHON=/path/to/python bash run_pipeline.sh`. Per-step logs are written to
-`logs/`. Figures are written to `figures/` and supplementary tables to
-`manuscript/tables/` (both are git-ignored build outputs).
+`logs/`. Figure and manuscript-table generation scripts are not part of this
+repository; the archived numerical tables are provided under
+`results/archived_tables/`.
 
 Run order: 00 environment provenance, 01 QC, 02 genotype build, 03 phenotypes,
 04 heritability, 05 trait selection, 06 expression, 07 populations,
 08 trait finalization, 09 prediction (matched panel, then full genotype panel),
 10 cross-study transfer, 11 permutation controls, 12 GO enrichment,
 15 split export, 17 kernel-weight recovery, 18 sensitivity analyses,
-13 statistical analysis, 14 figures, 16 tables, 19 sensitivity tables.
+13 statistical analysis, 20 diversity/relatedness diagnostics,
+21 target-group augmentation, 22 fold-internal preprocessing sensitivity.
+
+## Follow-up analyses (genetic-resources revision)
+
+- `20_diversity_relatedness.py`: group gene diversity, polymorphism and Hudson
+  Fst on all 1,135 genotyped accessions; test-to-training Fst and maximum
+  genomic relationship per trait x held-out group, joined to within-group
+  accuracy; accession-level accuracy by relationship tertile. Reads the
+  out-of-fold predictions in `results/full/oof/`.
+- `21_augmentation.py [nproc]`: target-group phenotyping experiment. Each
+  eligible trait x group (>= 20 accessions) is split into a fixed evaluation
+  half and a candidate pool; nested draws add 0/10/25/50% of the group, with a
+  constant-training-size design where feasible. Training-only phenotype
+  clipping; scores against raw evaluation means. Default 6 processes.
+- `22_strict_pipeline.py [nproc]`: KRR sensitivity with marker/expression/
+  phenotype preprocessing fitted inside each outer training fold only,
+  starting from the raw log2(normalized count + 1) matrix. Default 5 processes.
+
+Paths resolve relative to the repository root. Overrides:
+`ARABIDOPSIS_BENCHMARK_ROOT` (benchmark checkout providing `scripts/`,
+`data_processed/`, `results/`), `GRCE_FOLLOWUP_ROOT` (output root for
+`results/` and `work/`), `ARABIDOPSIS_DATA_DIR` (raw input directory).
+Intermediate caches are written to `work/` (git-ignored).
 
 ## Key parameters
 
@@ -100,9 +133,8 @@ z-scores; KRR alpha grid 0.01-100 and G/E kernel weight grid 0-1 tuned by inner
 If you use this benchmark, please cite the repository and the accompanying
 manuscript:
 
-> Tu L, Peng Q. A population-aware benchmark of genomic and transcriptomic
-> prediction across 27 *Arabidopsis thaliana* phenotypes. Manuscript in
-> preparation.
+> Tu L, Peng Q. Genetic differentiation and targeted phenotyping in genomic
+> prediction of *Arabidopsis thaliana* germplasm. Manuscript in preparation.
 
 ## Contact
 

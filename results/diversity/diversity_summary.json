@@ -1,0 +1,10 @@
+{
+  "n_accessions": 1135,
+  "n_markers": 12846,
+  "analysis_panel": 654,
+  "between_group_share_of_genotypic_variance": 0.14858051444866568,
+  "pairwise_fst_min": 0.03441492674997719,
+  "pairwise_fst_max": 0.6473851506954722,
+  "panel_gene_diversity": 0.48051053285598755,
+  "full_gene_diversity": 0.48395776748657227
+}
