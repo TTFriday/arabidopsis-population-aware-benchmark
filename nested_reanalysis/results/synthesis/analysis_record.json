@@ -1,0 +1,25 @@
+{
+  "seed": 20261121,
+  "effect_block_bootstraps": 5000,
+  "fst_block_bootstraps": 2000,
+  "block": "Source study; all traits or trait-group units retained together",
+  "effect_statistic": "Median unit effect; study-balanced statistic is median of within-study median effects",
+  "fst_statistic": "Pearson correlation of ranks, or residual ranks after trait indicators and stated log covariates",
+  "uncertainty_scope": "Exploratory empirical study-block stability intervals, not a population confidence guarantee; only eight source studies and overlapping accessions",
+  "analysis_timing": "Retrospective reanalysis designed after examination of archived analyses; not preregistered",
+  "sha256": {
+    "scripts\\biosystems_lib.py": "9814f16b3db9161204fbe949e18e27d6a5dd48a88a7ab6db2c55c7fbcf8abca0",
+    "scripts\\24_nested_validation.py": "51775c3ec3733bbfe44588a3eb0be5044f9843edeee67543821f3e4d8100ad41",
+    "scripts\\25_nested_sampling.py": "c8de6d3de5b52ed280f3304ba5b89ffcaa68675618bf0570595d69e64b7e5a7e",
+    "scripts\\26_statistical_synthesis.py": "f2f68ab2bc4078a4442a447b9bfba6d5b5d1661d33e7f1434a02af0eea620bef",
+    "scripts\\test_nested_validation.py": "8c825ec7e1779cea56e718319e2b3643f75b08fce6816afd7cb0ac0752a8dc8d",
+    "geno_matrix.npy": "653cc4053ba4b8623db2103bea629df358791a78970cf93d09dcea2b84e047a7",
+    "accessions.csv": "a2aab3463fb58d2d6d235c35ef3a80721e5285d60448c72a59b3f12b3e9800a0",
+    "expr_accessions.csv": "4ad9ef4250f258ee5fce1a2c578c6597f20cdf8eae0b5f83a513aca44124e0ac",
+    "phenotypes_long.csv": "e64c854a36680025b028b5be740277e76ffb091e2fa668b8b1b72310b379473e",
+    "pop6.csv": "24308efac1b329d5be4cd11a014cbc7fcc8bbbd1335d08f66a09aebbd768beb1",
+    "PCs.csv": "cbd6b56aaa77734bb201329fb0a7c89a697868a746f9e5240aef314007affbc6",
+    "benchmark_traits.csv": "7c20124f63b474effdb97082810d79c22cbd9401c4981f3b67bc50d17816c91b",
+    "expr_log2_raw.npy": "b1b39ed8df8b1163f14bc9853257e52912a7b5f4d1df54bf909593d5020d3313"
+  }
+}

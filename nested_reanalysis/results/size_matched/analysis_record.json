@@ -1,0 +1,26 @@
+{
+  "outer_repeats": 5,
+  "workers": 2,
+  "elapsed_seconds": 55.59536769999977,
+  "outer_seed": "CRC32(20261125|size-matched|trait_id|repeat)",
+  "design": "Random permutation partition with each outer fold exactly matching the corresponding LOPO fold train/test counts; pooled OOF metrics averaged across five repeats",
+  "inner_tuning": "Grouped where possible, one-group random fallback; same KRR grid, fitted preprocessing and inner seed 100 as LOPO",
+  "scope": "Retrospective sensitivity conditional on the characterized collection; does not isolate a causal population-structure effect or validate a future cohort",
+  "effect_block_seed": 20261121,
+  "effect_block_resamples": 5000,
+  "inputs": {
+    "inputs/data_processed/geno_matrix.npy": "653cc4053ba4b8623db2103bea629df358791a78970cf93d09dcea2b84e047a7",
+    "inputs/data_processed/accessions.csv": "a2aab3463fb58d2d6d235c35ef3a80721e5285d60448c72a59b3f12b3e9800a0",
+    "inputs/data_processed/expr_accessions.csv": "4ad9ef4250f258ee5fce1a2c578c6597f20cdf8eae0b5f83a513aca44124e0ac",
+    "inputs/data_processed/phenotypes_long.csv": "e64c854a36680025b028b5be740277e76ffb091e2fa668b8b1b72310b379473e",
+    "inputs/data_processed/pop6.csv": "24308efac1b329d5be4cd11a014cbc7fcc8bbbd1335d08f66a09aebbd768beb1",
+    "inputs/data_processed/PCs.csv": "cbd6b56aaa77734bb201329fb0a7c89a697868a746f9e5240aef314007affbc6",
+    "inputs/data_processed/benchmark_traits.csv": "7c20124f63b474effdb97082810d79c22cbd9401c4981f3b67bc50d17816c91b",
+    "inputs/expr_log2_raw.npy": "b1b39ed8df8b1163f14bc9853257e52912a7b5f4d1df54bf909593d5020d3313"
+  },
+  "code_sha256": {
+    "biosystems_lib.py": "9814f16b3db9161204fbe949e18e27d6a5dd48a88a7ab6db2c55c7fbcf8abca0",
+    "26_statistical_synthesis.py": "f2f68ab2bc4078a4442a447b9bfba6d5b5d1661d33e7f1434a02af0eea620bef",
+    "28_size_matched_validation.py": "a07480717d0681fa463f9bcec21a4729cda5ec437989a4b6b1101241af1e8448"
+  }
+}

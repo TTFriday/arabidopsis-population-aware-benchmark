@@ -25,6 +25,9 @@ results/          benchmark outputs: per-trait accuracy, heritability, transfer,
                   (diversity/, augmentation/, strict_pipeline/);
                   archived_tables/ holds the numerical manuscript tables
 run_pipeline.sh   one-command full rebuild
+nested_reanalysis/ fully nested reanalysis of the 27 traits plus the
+                  fold-size-matched sensitivity; supplies the manuscript's
+                  primary estimates (own README, tables and verifier)
 requirements.txt  pinned Python dependencies
 ```
 
@@ -127,6 +130,21 @@ PCs; six population clusters (rare groups merged at n < 10); traits with
 n >= 250 and REML h2 in [0.2, 0.95]; expression log2(count+1) with gene-wise
 z-scores; KRR alpha grid 0.01-100 and G/E kernel weight grid 0-1 tuned by inner
 3-fold CV; primary metric is the Pearson r of out-of-fold predictions.
+
+## Nested reanalysis
+
+`nested_reanalysis/` holds the code and result tables supplied as supplementary
+material SM3. Unlike `22_strict_pipeline.py`, which fits preprocessing inside
+each outer training fold, these scripts refit marker filtering, feature
+scaling, outcome clipping/scaling and hyperparameter selection inside every
+inner tuning fold and refit on the outer training set, then score raw
+replicate-mean phenotypes. They cover all 27 traits under both random
+five-fold and leave-population-out validation, add the outer-fold-size-matched
+random sensitivity and the retrospective label-inclusion experiment, and
+include `scripts/verify_science.py`, which re-derives all 425 fold assignments
+and every reported metric from the shipped prediction bundles without refitting
+the models. See its README for input assembly, run order and the limits of
+interpretation.
 
 ## Citation
 

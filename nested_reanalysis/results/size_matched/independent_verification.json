@@ -1,0 +1,10 @@
+{
+  "prediction_bundles_checked": 135,
+  "fold_assignments_and_train_hashes_checked": 425,
+  "finite_repeat_metrics": true,
+  "paired_and_study_block_summaries_independently_verified": 6,
+  "new_random_arm_grouped_inner_folds": 425,
+  "input_hashes_verified": 8,
+  "absolute_tolerance": 1e-12,
+  "relative_tolerance": 0
+}

@@ -1,0 +1,14 @@
+{
+  "elapsed_seconds": 228.5548505000006,
+  "workers": 2,
+  "units": 67,
+  "repeats": 10,
+  "feature": "G",
+  "fractions": [
+    0,
+    0.5
+  ],
+  "fully_nested_prediction_preprocessing": true,
+  "sampling_seed": "CRC32(trait_id|group|repeat)",
+  "scope": "Confirmatory reanalysis of archived endpoint design, not independent external validation"
+}
